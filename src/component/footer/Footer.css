@@ -1,0 +1,24 @@
+.footer{
+    border-top: 1px solid #e5e5e5;
+    padding: 20px;
+    background-color: #fff;
+    bottom: 0;
+    text-align: center;
+
+}
+.footer > p{
+    padding: 5px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p a{
+    
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.hart{
+    color: red !important;
+}

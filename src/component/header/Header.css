@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    width: 100%;
+}
+.header_icon{
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+}
+.header_center{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 999px;
+}
+.header_center > input{
+    border: none;
+    outline-width: 0; /* this to remove the input old style when we click , i mean the rectangle style */
+    /* flex: 1; */
+    padding: 10px;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}
